@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+        </style>
+</head>
+
+<body>
+
+    <header>
+        
+        <div class="logo">
+            <a href="index.html"><img src="img restaurant/logo.png" alt="Logo del restaurante" ></a> 
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="Abrir menú de navegación">
+                ☰
+            </button>
+            <ul class="nav-links">
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="servicio.html">Servicio</a></li>
+                <li><a href="acercade.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-image"></div>
+    <div class="slogan">
+        <h1>El mejor sabor del pueblo</h1>
+    </div>
+
+    <main>
+        <section id="menu">
+            
+            <h2 class="menu-title">Menú</h2>
+            <div class="menu-buttons">
+                <a href="comida.html" class="menu-button food"><span>Comida</span></a>
+               
+                <a href="bebida.html" class="menu-button drink"><span>Bebida</span></a>
+                
+            </div>
+            
+        </section>
+    
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="#" class="red-social"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/comidaybebidalaesquinita/" class="red-social"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="contacto">
+            <p>Número de contacto +52 388 102 1758</p>
+        </div>
+    </footer>
+    <script src="main.js">
+        function toggleMenu() {
+            const menu = document.querySelector('nav ul');
+            menu.classList.toggle('show');
+        }
+    </script>
+
+</body>
+</html>

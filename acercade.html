@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Nosotros</title>
+    <link rel="stylesheet" href="acercastyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img restaurant/logo.png" alt="Logo del restaurante" ></a> 
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="Abrir menú de navegación">☰</button>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="comida.html">Comida</a></li>
+                <li><a href="bebida.html">Bebidas</a></li>
+                <li><a href="servicio.html">Servicio</a></li>
+                <!-- Agrega más enlaces según sea necesario -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia">
+            <h2>¿Quiénes somos?</h2>
+            <p>Somos un restaurante familiar que ofrece comida rápida deliciosa y de alta calidad en un ambiente acogedor y amigable.exclamation Somos apasionados por la comida casera y por crear experiencias gastronómicas memorables para nuestros clientes.</p>
+        </section>
+
+        <section id="mision-vision">
+            <div class="mision">
+                <h2>¿Qué nos hace diferentes?</h2>
+                <ul>
+                    <p><li>Ingredientes frescos y de alta calidad: Utilizamos solo los ingredientes más frescos y de la mejor calidad para preparar nuestra comida.</li> <br>
+                   <li>Menú variado: Ofrecemos un menú amplio con una variedad de opciones para satisfacer todos los gustos, desde hamburguesas y sándwiches clásicos hasta platos más elaborados.</li>  <br>
+                    <li>Ambiente familiar: Nuestro restaurante tiene un ambiente cálido y acogedor que es perfecto para familias y grupos de amigos. </li><br>
+                    <li>Servicio amable: Nuestro equipo está comprometido a brindar un servicio amable y atento a todos nuestros clientes.</li> <br>
+                    <li>Precios accesibles: Ofrecemos precios competitivos que hacen que nuestra comida sea accesible para todos.</li></p>
+                </ul>
+                
+            </div>
+            <div class="vision">
+                <h2>¿Qué ofrecemos?</h2>
+                <ul>
+                    <p><li><b>Comida rápida:</b> Hamburguesas, sándwiches, papas fritas, aros de cebolla, ensaladas y más.</li> <br>
+                    <li><b>Bebidas:</b> Refrescos, jugos, café, té y una variedad de cervezas artesanales.</li> <br>
+                    <li><b>Opciones para llevar:</b> Ofrecemos opciones para llevar para que pueda disfrutar de nuestra comida en cualquier lugar.</li> <br>
+                    <li><b>Servicio a domicilio:</b> Ofrecemos servicio a domicilio para su comodidad.</li></p>
+                </ul>
+                
+            </div>
+        </section>
+
+        <section id="valores">
+            <h2>Valores</h2>
+            <ul>
+                <li>Calidad</li>
+                <li>Servicio</li>
+                <li>Innovación</li>
+                <li>Compromiso</li>
+                <li>Integridad</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="imagenes">
+                <img src="img restaurant/lugar.jpg" alt="Imagen del restaurante 1">
+                <img src="img restaurant/lugar2.jpg" alt="Imagen del restaurante 2">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="#" class="red-social"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/comidaybebidalaesquinita/" class="red-social"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="contacto">
+            <p>Número de contacto +52 388 102 1758</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
